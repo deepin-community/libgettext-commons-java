@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Gettext Commons
+Upstream-Contact: Gettext Commons team <xnap-commons-devel@lists.sourceforge.net>
+Source: https://github.com/jgettext/gettext-commons
+
+Files: *
+Copyright: 2005, Felix Berger
+           2005, Tammo van Lessen
+           2005, Steffen Pingel
+License: LGPL-2.1+
+ On Debian GNU/Linux system you can find the complete text of the
+ LGPL-2.1 license in '/usr/share/common-licenses/LGPL-2.1'
+
+Files: debian/*
+Copyright: 2007, Andreas Putzo <andreas@putzo.net>
+           2009, Giovanni Mascellani <gio@debian.org>
+License: GPL-3+
+ On Debian GNU/Linux system you can find the complete text of the
+ GPL-3 license in '/usr/share/common-licenses/GPL-3'

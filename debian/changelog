@@ -1,0 +1,77 @@
+libgettext-commons-java (0.9.6-6) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>  Thu, 19 May 2022 10:17:49 +0800
+
+libgettext-commons-java (0.9.6-6) unstable; urgency=medium
+
+  * Team upload.
+  * Added the missing build dependency on junit
+  * Removed the build dependency on libmaven-assembly-plugin-java
+  * Standards-Version updated to 4.1.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 12 Sep 2017 10:14:39 +0200
+
+libgettext-commons-java (0.9.6-5) unstable; urgency=medium
+
+  * Team upload.
+  * Patched pom.xml to remove replace deprecated attached goal with single
+    (Closes: #871370)
+  * Updated copyright Format: to use https
+
+ -- Tom Marble <tmarble@info9.net>  Thu, 10 Aug 2017 08:35:44 -0500
+
+libgettext-commons-java (0.9.6-4) unstable; urgency=medium
+
+  * Add myself to Uploaders
+  * Use debhelper and compat level 10
+  * Bump Standards-Version to 4.0.0
+  * Update Vcs URLs in debian/control
+  * Update Homepage to github
+  * Update debian/watch to retrieve from github
+
+ -- tony mancill <tmancill@debian.org>  Sun, 02 Jul 2017 09:03:44 -0700
+
+libgettext-commons-java (0.9.6-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Emmanuel Bourg ]
+  * Ignore the eclipse plugin to fix the build failure with Maven 3
+    (Closes: #807659)
+  * Build with the DH sequencer instead of CDBS
+  * Standards-Version updated to 3.9.6 (no changes)
+  * Use canonical URLs for the Vcs-* fields
+  * Switch to debhelper level 9
+  * Converted debian/copyright to the Copyright Format 1.0
+
+  [ Giovanni Mascellani ]
+  * Update my email address.
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 12 Dec 2015 23:26:03 +0100
+
+libgettext-commons-java (0.9.6-2) unstable; urgency=low
+
+  * Standards-Version bumped to 3.8.4 (no changes required)
+  * Vcs-* fields updated to new git repository
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Dependency to libmaven-plugin-testing-java removed (closes: #554476)
+
+ -- Giovanni Mascellani <mascellani@poisson.phc.unipi.it>  Sun, 18 Apr 2010 18:43:02 +0200
+
+libgettext-commons-java (0.9.6-1) unstable; urgency=low
+
+  * Packaged new upstream release (closes: #553202)
+  * debian/watch: fixed
+  * debian/*: adapted in order to use maven-debian-helper
+  * debian/rules: bumped to latest policy version (no changes required)
+  * debian/*: removed unused files
+
+ -- Giovanni Mascellani <mascellani@poisson.phc.unipi.it>  Wed, 04 Nov 2009 08:50:09 +0100
+
+libgettext-commons-java (0.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #434091)
+
+ -- Andreas Putzo <andreas@putzo.net>  Sat, 21 Jul 2007 10:33:53 +0000
